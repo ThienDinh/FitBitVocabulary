@@ -1,3 +1,4 @@
 <svg>
-  <rect id="background" />
+  <image href="fox_bg.png"/>
+  <text id="word"></text>
 </svg>
