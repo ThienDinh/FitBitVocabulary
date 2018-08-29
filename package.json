@@ -1,0 +1,27 @@
+{
+  "name": "vocabulary",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.2",
+    "@fitbit/sdk-cli": "^1.0.0"
+  },
+  "fitbit": {
+    "appUUID": "3fdc5d3b-e2ef-4775-8c15-b13cce591d25",
+    "appType": "clockface",
+    "appDisplayName": "Vocabulary",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {}
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
